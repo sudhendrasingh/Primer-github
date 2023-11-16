@@ -1,6 +1,7 @@
 import {Button} from '@primer/react'
 import Navbar from './components/Navbar';
 import SideBar from './components/SideBar';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Navbar/>
         <Button>Default</Button>
         <SideBar/>
+        <Content/>
     </div>
   );
 }
